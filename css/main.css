@@ -1,0 +1,123 @@
+.header {
+    background-color: darkgreen; 
+    opacity: .7; 
+    
+}
+
+
+
+
+.inspectorimage {
+  margin: auto 0px;
+  width: 20%; 
+  height: 200px; 
+  margin-left: 80%;
+  padding-top: 5px;  
+   
+}
+
+
+
+.companyname { 
+    margin: auto 0px;
+    font-size: 42px;  
+    position: absolute;
+    top: 20px; 
+    left: 80px; 
+    color: white; 
+    
+    
+}
+
+.companyslogan {
+    margin: auto 0px;
+    font-size: 30px; 
+    position: absolute;
+    top: 80px; 
+    left: 90px; 
+    color: white; 
+    
+    
+}
+
+
+.companynamepage {
+    margin: auto 0px;  
+    padding-left: 60px;   
+    padding-top: 30px; 
+    padding-bottom: 10px; 
+}
+
+
+
+.skills {
+    padding-left: 60px;
+    background-color: whitesmoke; 
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    font-size: 24px; 
+}
+
+
+.listofskills {
+    padding-left: 80px;
+    font-size: 18px; 
+    
+    
+}
+
+.windowsize {
+    padding-top: 20px; 
+    padding-left: 60px; 
+    padding-bottom: 20px; 
+    font-size: 16px; 
+    
+    
+}
+
+.windowupperleftoffset {
+    padding-top: 20px; 
+    padding-left: 60px; 
+    padding-bottom: 20px; 
+    font-size: 16px;  
+    
+}
+
+.url {
+    padding-top: 20px; 
+    padding-left: 60px; 
+    padding-bottom: 20px; 
+    font-size: 16px;  
+    
+}
+
+.documenttitle {
+    padding-top: 20px; 
+    padding-left: 60px; 
+    padding-bottom: 20px; 
+    font-size: 16px;  
+    
+}
+
+.lastupdated {
+    padding-top: 20px; 
+    padding-left: 60px; 
+    padding-bottom: 20px; 
+    font-size: 16px;  
+    
+}
+
+
+
+
+
+
+.copyright {
+    text-align: center; 
+    font-size: 14px; 
+    padding: 5px; 
+    background-color: darkgreen; 
+    color: white; 
+    
+}
+

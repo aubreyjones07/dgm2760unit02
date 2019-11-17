@@ -6,36 +6,39 @@
 
 
 
-function loadinspectorImage() {
+function inspectorImage() {
     
 }
 
 
-var companyTitle = "Inspector Clouseau";
-document.getElementById("company").innerHTML = companyTitle;
-
-
-var companySlogan = "We Are Know-It-Alls";
-document.getElementById("slogan").innerHTML = companySlogan;
 
 
 
 
+document.querySelector('#company').innerText = `Inspector Clouseau`
+document.querySelector('#slogan').innerText = `This IZ Chief Inspector Clouseau \n speaking on the pheaun`
 
 
-function myWindowResize() {
-    var height = window.innerHeight, width = window.innerWidth, windowwidth = "My Window is " + width + " wide ", documenttitle = document.title, lastupdated = document.lastModified;
-    windowwidth += "and " + height + " long";
-    document.getElementById("windowsize").innerHTML = windowwidth;
-    window.scrollBy(100, 100);
-    document.getElementById("windowupperleftoffset").innerHTML = "The Window Page Offset is: <br>" + window.pageXOffset + " for x " + "and " + window.pageYOffset + " for Y.";
-    document.getElementById("documenttitle").innerHTML = "This is the Document Title: " + documenttitle; 
-    document.getElementById("lastupdated").innerHTML = "This is when the page was last updated: " + lastupdated; 
+function reDisplay() {
+let windowSizes = `Window size is ${window.innerWidth} pixels wide by ${window.innerHeight} pixels tall`
+let offset = `Window offset is ${window.screenX} from the left edge and ${window.screenY} pixels from the top of the display.`
+
+let myWindow = document.querySelector("#myWindow").innerText = `${windowSizes} \n ${offset}`
+
+let windowURL = document.querySelector("#url").innerText = `The full URL of this page is: ${window.location.href}`
+let documentTitle = `This is the Document Title: ${document.title}`
+let lastPageUpdate = `This is when the page was last updated: ${document.lastModified}`
+
+let myDocument = document.querySelector("#myDocument").innerText = `${documentTitle} \n ${lastPageUpdate}`
+
+
+window.scrollBy(100, 100);
+  
+
 }
 
-myWindowResize();
-
-document.getElementById("url").innerHTML = "The full URL of this page is: <br>" + window.location.href; 
+reDisplay()
 
 
+//document.getElementById("url").innerHTML = "The full URL of this page is: <br>" + window.location.href; 
 

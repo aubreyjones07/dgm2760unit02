@@ -10,13 +10,13 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">          
 <title>Inspector Clouseau</title>       
 </head>
-<body onresize="myWindowResize()">
+<body onresize="reDisplay()">
    
   
     
 <header>  
 <div class="header">    
-<img src="images/24465399-detective.jpg" onload="loadinspectorImage()" class="inspectorimage">   
+<img src="images/24465399-detective.jpg" class="inspectorimage" onload="inspectorImage()">   
 <h1 id="company" class="companyname"></h1>
 <h2 id="slogan" class="companyslogan"></h2>
 </div>
@@ -41,26 +41,19 @@
    
     
     
- <h1 class="skills">Window Properties:</h1>   
-    
+ <h2 class="skills">Window Properties:</h1>   
+ <p id="myWindow" class="info"></p> 
  
-<div id="windowsize" class="windowsize"></div>
+<div id="url" class="info"></div>  
+ 
+ <h2 class="skills">Document Properties:</h1>   
+   <p id="myDocument" class="info"></p> 
+ 
    
 
-<div id="windowupperleftoffset" class="windowupperleftoffset"></div>    
+  
     
-   
 
-<div id="url" class="url"></div>    
-   
- 
-<h1 class="skills">Document Properties:</h1>      
-    
-<div id="documenttitle" class="documenttitle"></div>   
-    
-    
-<div id="lastupdated" class="lastupdated"></div>  
-    
     
     
 </main>
